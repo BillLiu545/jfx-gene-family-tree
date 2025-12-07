@@ -107,7 +107,7 @@ public class GeneticFamily extends TreeMap<Integer, String>
     {
         TextInputDialog dialog = new TextInputDialog();
         dialog.setTitle("Compare Family Tree Members");
-        dialog.setHeaderText("COmpare Family Tree Members");
+        dialog.setHeaderText("Compare Family Tree Members");
         dialog.setContentText("Please enter Family Tree Member Number to Compare: ");
         Optional<String> opt = dialog.showAndWait();
         Integer one = null;
